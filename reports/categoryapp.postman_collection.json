@@ -1,0 +1,541 @@
+{
+	"info": {
+		"_postman_id": "603885dd-db16-46fb-bc45-c83ee4aa9fc1",
+		"name": "categoryapp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24021739"
+	},
+	"item": [
+		{
+			"name": "List Category",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{base_url}}/api/category",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"category"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "List Category",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/category",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"category"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 03 Nov 2022 21:20:33 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 03 Nov 2022 21:20:33 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.26"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "58"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "laravel_session=dI6CIte4hF4P9Q1ag5kVKuxiDDORQIcrNNuBb673; expires=Thu, 03-Nov-2022 23:20:33 GMT; Max-Age=7200; path=/; httponly"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"message\": \"Data Kategori\",\n    \"data\": [\n        {\n            \"id\": 1,\n            \"name\": \"drinking\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 2,\n            \"name\": \"food\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 3,\n            \"name\": \"ducimus\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 4,\n            \"name\": \"doloremque\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 5,\n            \"name\": \"enim\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 6,\n            \"name\": \"et\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 7,\n            \"name\": \"quis\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 8,\n            \"name\": \"facere\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 9,\n            \"name\": \"recusandae\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 10,\n            \"name\": \"expedita\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 11,\n            \"name\": \"accusamus\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 12,\n            \"name\": \"non\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 13,\n            \"name\": \"quasi\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 14,\n            \"name\": \"modi\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 15,\n            \"name\": \"velit\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 16,\n            \"name\": \"quis\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 17,\n            \"name\": \"a\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 18,\n            \"name\": \"laborum\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 19,\n            \"name\": \"laudantium\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 20,\n            \"name\": \"iste\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 21,\n            \"name\": \"beatae\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 22,\n            \"name\": \"excepturi\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 23,\n            \"name\": \"porro\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 24,\n            \"name\": \"et\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 25,\n            \"name\": \"illo\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 26,\n            \"name\": \"facere\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 27,\n            \"name\": \"quia\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 28,\n            \"name\": \"molestias\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 29,\n            \"name\": \"error\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 30,\n            \"name\": \"et\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 31,\n            \"name\": \"non\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 32,\n            \"name\": \"et\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 33,\n            \"name\": \"quis\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 34,\n            \"name\": \"et\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 35,\n            \"name\": \"autem\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 36,\n            \"name\": \"aut\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 37,\n            \"name\": \"corporis\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 38,\n            \"name\": \"et\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 39,\n            \"name\": \"et\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 40,\n            \"name\": \"aperiam\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 41,\n            \"name\": \"nemo\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 42,\n            \"name\": \"in\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 43,\n            \"name\": \"id\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 44,\n            \"name\": \"itaque\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 45,\n            \"name\": \"veritatis\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 46,\n            \"name\": \"eligendi\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 47,\n            \"name\": \"iure\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 48,\n            \"name\": \"et\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 49,\n            \"name\": \"aut\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 50,\n            \"name\": \"error\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 51,\n            \"name\": \"suscipit\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 52,\n            \"name\": \"ab\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 53,\n            \"name\": \"voluptatem\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 54,\n            \"name\": \"magnam\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 55,\n            \"name\": \"qui\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 56,\n            \"name\": \"asperiores\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 57,\n            \"name\": \"quia\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 58,\n            \"name\": \"dolor\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 59,\n            \"name\": \"omnis\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 60,\n            \"name\": \"similique\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 61,\n            \"name\": \"aut\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 62,\n            \"name\": \"molestiae\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 63,\n            \"name\": \"quos\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 64,\n            \"name\": \"numquam\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 65,\n            \"name\": \"et\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 66,\n            \"name\": \"consequuntur\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 67,\n            \"name\": \"reprehenderit\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 68,\n            \"name\": \"sapiente\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 69,\n            \"name\": \"quia\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 70,\n            \"name\": \"libero\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 71,\n            \"name\": \"nostrum\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 72,\n            \"name\": \"nostrum\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 73,\n            \"name\": \"amet\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 74,\n            \"name\": \"suscipit\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 75,\n            \"name\": \"perferendis\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 76,\n            \"name\": \"ut\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 77,\n            \"name\": \"dolorum\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 78,\n            \"name\": \"ut\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 79,\n            \"name\": \"quae\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 80,\n            \"name\": \"tempore\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 81,\n            \"name\": \"quod\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 82,\n            \"name\": \"aspernatur\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 83,\n            \"name\": \"ullam\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 84,\n            \"name\": \"vero\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 85,\n            \"name\": \"ullam\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 86,\n            \"name\": \"porro\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 87,\n            \"name\": \"ut\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 88,\n            \"name\": \"neque\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 89,\n            \"name\": \"nesciunt\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 90,\n            \"name\": \"veritatis\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 91,\n            \"name\": \"quos\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 92,\n            \"name\": \"ex\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 93,\n            \"name\": \"assumenda\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 94,\n            \"name\": \"et\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 95,\n            \"name\": \"rerum\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 96,\n            \"name\": \"molestiae\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 97,\n            \"name\": \"enim\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 98,\n            \"name\": \"sapiente\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 99,\n            \"name\": \"perferendis\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 100,\n            \"name\": \"quo\",\n            \"is_publish\": 1,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 101,\n            \"name\": \"clot\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 102,\n            \"name\": \"clothes\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 103,\n            \"name\": \"clothes\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 104,\n            \"name\": \"pants\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 105,\n            \"name\": \"celana anak\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 106,\n            \"name\": \"celana anak\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 107,\n            \"name\": \"celana anak\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 108,\n            \"name\": \"koplo\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 109,\n            \"name\": \"koplo\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 110,\n            \"name\": \"pants 2\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 111,\n            \"name\": \"pants 2\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 112,\n            \"name\": \"pants 2\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 114,\n            \"name\": \"shirt\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        },\n        {\n            \"id\": 115,\n            \"name\": \"furniture premium\",\n            \"is_publish\": 0,\n            \"created_at\": null,\n            \"updated_at\": null\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Show Category",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/api/category/show/1",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"category",
+						"show",
+						"1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Show Category",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/category/show/1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"category",
+								"show",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 03 Nov 2022 21:22:11 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 03 Nov 2022 21:22:11 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.26"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "57"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "laravel_session=dI6CIte4hF4P9Q1ag5kVKuxiDDORQIcrNNuBb673; expires=Thu, 03-Nov-2022 23:22:11 GMT; Max-Age=7200; path=/; httponly"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"message\": \"Data Kategori Founded\",\n    \"data\": {\n        \"id\": 1,\n        \"name\": \"drinking\",\n        \"is_publish\": 0,\n        \"created_at\": null,\n        \"updated_at\": null\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Create Category",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "bag",
+							"type": "text"
+						},
+						{
+							"key": "is_publish",
+							"value": "0",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{base_url}}/api/category/store",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"category",
+						"store"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Create Category",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "bag",
+									"type": "text"
+								},
+								{
+									"key": "is_publish",
+									"value": "0",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/api/category/store",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"category",
+								"store"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 03 Nov 2022 21:24:10 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 03 Nov 2022 21:24:10 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.26"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "59"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "laravel_session=dI6CIte4hF4P9Q1ag5kVKuxiDDORQIcrNNuBb673; expires=Thu, 03-Nov-2022 23:24:10 GMT; Max-Age=7200; path=/; httponly"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"message\": \"Data Category Added\",\n    \"kategori\": {\n        \"name\": \"bag\",\n        \"is_publish\": \"0\",\n        \"id\": 116\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Update Category",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "shirt",
+							"type": "text"
+						},
+						{
+							"key": "is_publish",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{base_url}}/api/category/update/116",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"category",
+						"update",
+						"116"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Update Category",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "shirt",
+									"type": "text"
+								},
+								{
+									"key": "is_publish",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/api/category/update/116",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"category",
+								"update",
+								"116"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 03 Nov 2022 21:42:14 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 03 Nov 2022 21:42:14 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.26"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "59"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "laravel_session=dI6CIte4hF4P9Q1ag5kVKuxiDDORQIcrNNuBb673; expires=Thu, 03-Nov-2022 23:42:14 GMT; Max-Age=7200; path=/; httponly"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"message\": \"Data Kategori Updated\",\n    \"data\": {\n        \"id\": 116,\n        \"name\": \"shirt\",\n        \"is_publish\": \"1\",\n        \"created_at\": null,\n        \"updated_at\": null\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete Category",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/api/category/delete/116",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"category",
+						"delete",
+						"116"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Delete Category",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/category/delete/116",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"category",
+								"delete",
+								"116"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 03 Nov 2022 21:43:05 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 03 Nov 2022 21:43:05 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.26"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "58"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "laravel_session=dI6CIte4hF4P9Q1ag5kVKuxiDDORQIcrNNuBb673; expires=Thu, 03-Nov-2022 23:43:05 GMT; Max-Age=7200; path=/; httponly"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"message\": \"Data Kategori Deleted\",\n    \"data\": {\n        \"id\": 116,\n        \"name\": \"shirt\",\n        \"is_publish\": 1,\n        \"created_at\": null,\n        \"updated_at\": null\n    }\n}"
+				}
+			]
+		}
+	]
+}
